@@ -7,7 +7,7 @@
              x:Class="ESCOMpras.Page1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Página de Inicio"
+            <Label Text="Página de Inicio."
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
