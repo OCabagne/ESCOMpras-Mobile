@@ -7,7 +7,7 @@
              x:Class="ESCOMpras.Page2">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Barra de Búsqueda y Recomendaciones"
+            <Label Text="Barra de Búsqueda y Recomendaciones."
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
