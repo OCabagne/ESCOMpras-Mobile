@@ -6,8 +6,26 @@
              mc:Ignorable="d"
              x:Class="ESCOMpras.Page2">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Barra de Búsqueda y Recomendaciones."
+        <StackLayout Padding="0, 10, 0, 10">
+            <StackLayout Orientation="Vertical"
+                         VerticalOptions="Center">
+                <Label Text="Buscar"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"
+                       FontAttributes="Bold"
+                       FontSize="20"/>
+
+                <Label Text="ESCOM"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="12"/>
+            </StackLayout>
+
+            <Frame>
+                <SearchBar />
+            </Frame>
+
+            <Label Text="Barra de Búsqueda y Recomendaciones"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

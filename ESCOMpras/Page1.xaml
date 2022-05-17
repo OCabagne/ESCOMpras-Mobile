@@ -6,7 +6,20 @@
              mc:Ignorable="d"
              x:Class="ESCOMpras.Page1">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="0, 10, 0, 10">
+            <StackLayout Orientation="Vertical"
+                         VerticalOptions="Center">
+                <Label Text="Cerca de ti"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"
+                       FontAttributes="Bold"
+                       FontSize="20"/>
+
+                <Label Text="ESCOM"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="12"/>
+            </StackLayout>
             <Label Text="Página de Inicio."
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
